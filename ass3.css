@@ -1,0 +1,54 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+.btn-div{
+    display: flex;
+    justify-content:center;
+}
+
+.btn-div button{
+    padding: 10px 20px;
+    background-color: black;
+   color: white;
+  
+}
+
+
+.off-canvas{
+    height: 100vh;
+    background-color: blueviolet;
+    width: 40%;
+    transform: translate(-100%, 0px);
+
+    transition: all 0.1s ease-in-out; 
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+
+ 
+   
+}
+
+.slide{
+    transform: translate(0px, 0px);
+    transition: all 0.1s ease-in-out;
+}
+
+/* .slide-back{
+    transform: translate(-200px,0px);
+} */
+
+
+.bt-close button{
+    border: none;
+    background-color: pink;
+    padding: 10px;
+    color:rgb(86, 32, 32);
+}
+
+
+
+
